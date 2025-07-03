@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  border-radius: 20px;
+  background: rgb(202, 202, 202);
+  padding: 15px;
+}
+.page-wrapper {
+  max-width: 375px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 5px 4px 30px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(222, 220, 220);
+  padding-bottom: 20px;
+}
+
+.header {
+  color: #fff;
+  padding-top: 40px;
+  padding-left: 42px;
+  padding-right: 42px;
+  padding-bottom: 142px;
+  border-radius: 20px 20px 90px 90px;
+  background: linear-gradient(0deg, rgba(58, 58, 58, 0), rgba(58, 58, 58, 0.6)),
+    url("../img/bacgraund.png") no-repeat center center;
+}
+.hello {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.hello-text {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.user {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: -80px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 4px 30px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 254, 254);
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+}
+.user-avatar {
+  margin-top: -30px;
+  border-radius: 50%;
+}
+.user-title {
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.user-text {
+  margin: 0;
+  color: rgb(130, 127, 127);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card {
+  padding: 20px;
+  margin: 0 auto;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 4px 30px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(255, 254, 254);
+}
+.buttns {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+  gap: 10px;
+}
+.button.vk {
+  background: rgb(0, 119, 255);
+}
+.button.tl {
+  background: rgb(34, 158, 217);
+}
+.button.youtube {
+  background: rgb(255, 0, 4);
+}
+.button.git-hub {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.vk-icon {
+  margin: 0;
+}
